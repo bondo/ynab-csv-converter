@@ -11,6 +11,7 @@ Options:
   -d, --debug  print debug messages (e.g. include stacktrace in errors)
 
 Supported formats:
+  al               Custom export format for AL
   nordnet          "XLS compatible" (read: csv) export from nordnet.dk
   sparekassen      Sparekassen Kronjylland netbank export
   danskebank       CSV tab-separated export from Danske Bank netbank
