@@ -34,11 +34,9 @@ def getlines(path):
                 payee = line.text
                 memo = ''
                 if len(line.sender) > 0:
-                    payee = line.sender
-                    memo = line.text
+                    memo = line.sender
                 if len(line.receiver) > 0:
-                    payee = line.receiver
-                    memo = line.text
+                    memo = line.receiver
 
                 category = ''
 
